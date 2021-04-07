@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="826.0" prefWidth="1129.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AccueilController">
+   <top>
+      <Pane prefHeight="60.0" prefWidth="1129.0" style="-fx-background-color: #1e3d59;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="752.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: transparent;" text="Accueil" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="868.0" layoutY="16.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="132.0" style="-fx-background-color: transparent;" text="Dossier de travail" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="1010.0" layoutY="16.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" style="-fx-background-color: transparent;" text="Quitter" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Button>
+            <ImageView layoutX="14.0" layoutY="4.0">
+               <image>
+                  <Image url="@../../../Downloads/M50.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #d1d5d7;" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>

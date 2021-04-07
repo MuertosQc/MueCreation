@@ -1,0 +1,55 @@
+#Btn_Connexion{
+	-fx-background-color:#a43a2d;
+	-fx-text-fill:white;
+	-fx-border-radius: 5px;
+	-fx-background-radiux: 5px;
+}
+
+#Btn_Connexion:hover{
+	-fx-background-color:#631c2c;
+}
+
+#Btn_Inscription{
+	-fx-background-color:#152a3d;
+	-fx-text-fill:white;
+	-fx-border-radius: 5px;
+	-fx-background-radiux: 5px;
+}
+ 
+#Btn_Inscription:hover{
+	-fx-background-color:#0b151f;
+}
+
+#Tb_Username, #Tb_Password{
+	-fx-background-color:transparent;
+	-fx-text-fill:#d1d5d7;
+}
+
+/*Checkbox */
+.check-box .box {
+
+-fx-background-color: white;
+-fx-border-color:grey;
+-fx-border-radius:3px; 
+
+}
+
+.check-box:selected .mark {
+
+-fx-background-color: white;
+
+}
+
+.check-box:selected .box {
+
+-fx-background-color: #a43a2d;
+}
+
+/*ImageView */
+#Img_Close{
+	-fx-image: url(Photos/X30.png);
+}
+
+#Img_Close:hover{
+	-fx-image: url(Photos/X30Hover.png);
+}

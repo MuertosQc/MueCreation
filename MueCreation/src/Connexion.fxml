@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="477.0" prefWidth="777.0" style="-fx-background-color: #1e3d59;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ConnexionController">
+   <children>
+      <ImageView layoutX="363.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../Downloads/M50.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="321.0" layoutY="64.0" text="Mue" textFill="#a43a2d">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="64.0" text="Création" textFill="#d1d5d7">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Tb_Username" layoutX="231.0" layoutY="210.0" prefHeight="25.0" prefWidth="341.0" promptText="Nom d'utilisateur">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </TextField>
+      <Separator layoutX="234.0" layoutY="235.0" prefHeight="3.0" prefWidth="341.0" />
+      <Separator layoutX="235.0" layoutY="279.0" prefHeight="3.0" prefWidth="341.0" />
+      <TextField fx:id="Tb_Password" layoutX="232.0" layoutY="254.0" prefHeight="25.0" prefWidth="341.0" promptText="Mot de passe">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </TextField>
+      <ImageView fx:id="Img_User" layoutX="201.0" layoutY="208.0">
+         <image>
+            <Image url="@../../../Downloads/User30.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Img_Password" layoutX="201.0" layoutY="252.0">
+         <image>
+            <Image url="@../../../Downloads/lock30.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Btn_Inscription" layoutX="679.0" layoutY="9.0" mnemonicParsing="false" onAction="#ActionPrincipal" text="Inscription" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="Btn_Connexion" layoutX="472.0" layoutY="304.0" mnemonicParsing="false" onAction="#ActionPrincipal" prefHeight="36.0" prefWidth="104.0" text="Connexion" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <CheckBox layoutX="207.0" layoutY="313.0" mnemonicParsing="false" text="Se rappeler de moi" textFill="#d1d5d7">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </CheckBox>
+      <Hyperlink fx:id="HL_ForgotPassword" layoutX="315.0" layoutY="366.0" text="Mot de passe oublié ?" textFill="#d1d5d7">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fx:id="Img_Close" layoutX="8.0" layoutY="7.0" onMouseClicked="#OnMouseClose">
+         <image>
+            <Image url="@../../../Downloads/X30.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="LblMessage" layoutX="253.0" layoutY="414.0" text="Entrer un username ou mot de passe valide" textFill="#a43a2d" visible="false">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
